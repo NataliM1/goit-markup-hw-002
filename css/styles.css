@@ -1,0 +1,125 @@
+body {
+  color: rgba(67, 68, 85, 1);
+  font-family: "Roboto", "Verdana", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.logo {
+  color: rgba(77, 90, 229, 1);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo-black {
+  color: rgba(46, 47, 66, 1);
+}
+
+.logo-white {
+  color: rgba(244, 244, 253, 1);
+}
+
+.menu-nav {
+  color: rgba(46, 47, 66, 1);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+
+.menu-nav:hover,
+.menu-nav:focus {
+  color: #404bbf;
+  cursor: pointer;
+}
+
+.header-link-contact {
+  color: rgba(67, 68, 85, 1);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.1428;
+  text-decoration: none;
+}
+
+.header-link-contact:hover,
+.header-link-contact:focus {
+  color: #404bbf;
+  cursor: pointer;
+}
+
+.current {
+  color: rgba(46, 47, 66, 1);
+}
+
+/* Button */
+
+.features-section {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(46, 47, 66, 1);
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+
+.features-section-button {
+  background-color: rgba(77, 90, 229, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  border: 0px;
+}
+
+.features-section-button:hover,
+.features-section-button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+.hero-section {
+  background-color: rgba(244, 244, 253, 1);
+}
+
+h2 {
+  color: rgba(46, 47, 66, 1);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.footer {
+  background-color: rgba(46, 47, 66, 1);
+}
+
+.footer-text {
+  color: rgba(244, 244, 253, 1);
+}
