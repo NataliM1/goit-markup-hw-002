@@ -1,10 +1,11 @@
 body {
   color: rgba(67, 68, 85, 1);
-  font-family: "Roboto", "Verdana", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  background-color: #ffffff;
 }
 
 ul li {
@@ -48,10 +49,12 @@ ul li {
 
 .header-link-contact {
   color: rgba(67, 68, 85, 1);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 1.1428;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-decoration: none;
+  font-style: normal;
 }
 
 .header-link-contact:hover,
@@ -77,9 +80,17 @@ ul li {
   letter-spacing: 1.12px;
 }
 
+.features-section-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
 .features-section-button {
   background-color: rgba(77, 90, 229, 1);
   color: rgba(255, 255, 255, 1);
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -94,26 +105,41 @@ ul li {
   cursor: pointer;
 }
 
-.hero-section {
-  background-color: rgba(244, 244, 253, 1);
-}
-
-h2 {
-  color: rgba(46, 47, 66, 1);
+.first-section {
   font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
-h3 {
-  font-size: 20px;
-  font-style: normal;
+.first-section-title {
   font-weight: 500;
+  font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.first-section-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.hero-section {
+  background-color: #f4f4fd;
+}
+
+.hero-section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .footer {
